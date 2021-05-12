@@ -101,4 +101,52 @@ body{
     -webkit-transform: rotate(135deg);
 }
 
+@media (max-width:468px){
+    #reviews{
+        margin:20px  80px 0px 0px ;
+    }
+    .underline{
+        margin:10px 220px 0px 150px;
+    }
+    .card{
+        margin:30px 80px 0px 30px
+    }
+    #per-img{
+        margin:10px ;
+    }
+    .comma{
+        margin-left:70px;
+        padding:0px 7px 0px 7px;
+    }
+    #job{
+        margin:-20px 120px;
+    }
+    .btns{
+        margin-left:120px;
+    }
+}
+
+@media (max-width:768px){
+    #reviews{
+        margin-top:190px;
+    }
+    .underline{
+        margin:-7px 330px 0px 340px;
+    }
+    .card{
+        margin:70px;
+    }
+    .comma{
+        padding:1px 0px 2px 0px;
+        margin-left:200px;
+    }
+    #job{
+        margin-left:250px;   
+    }
+    .btns{
+        margin-left:250px;
+    }
+}
+
+
 
