@@ -1,0 +1,36 @@
+main{
+    text-align : center;
+    margin:140px 0px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .counter{
+    text-transform:capitalize;
+    font-size:240%;
+  }
+  .number{
+    font-size:300%;
+  }
+  .btns{
+    list-style:none;
+    display:flex;
+    margin-top:-100px;
+    margin-left: 400px;
+  }
+  li{
+    padding-right:35px;
+  }
+  .btn{
+    padding:10px 10px;
+    letter-spacing:0.2rem;
+    border:3px solid black;
+    border-radius:15px;
+    text-transform:uppercase;
+    font-family: 'Open Sans', sans-serif;
+    background-color:white;
+  }
+  .btn:hover{
+    cursor:pointer;
+    background-color:black;
+    color:white;
+    transition: all 0.3s linear;
+  }
