@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(218, 216, 216);
+}
+.user-card{
+    border: 1px solid rgb(218, 216, 216);
+    background-color:white;
+    margin:70px 670px 0px 100px;
+}
+
+#username{
+    text-align: center;
+    text-transform:uppercase;
+    font-style:initial;
+    font-family:cursive;
+}
+.btns{
+    margin:10px 0px 40px 100px;
+}
+.btn{
+   margin-right: 30px;
+   text-transform: uppercase;
+   padding: 7px 10px;
+   border-radius: 5px;
+   background-color: rgb(100, 212, 100);
+   border: 0.1px solid rgb(100, 212, 100);
+   color:rgb(78, 78, 78);
+   letter-spacing: 3px;
+   cursor: pointer;
+}
+.btn:hover{
+    background-color: green;
+    border-color: green;
+    transition: all 0.3s linear;
+    color:white;
+}
+.load-user-img{
+     width: 350px;
+     height:350px; 
+     margin:-16px 0px 0px 60px;
+}
+
+.computer-card{
+    border: 1px solid rgb(218, 216, 216);
+    background-color:white;
+    margin: -440px 90px 40px 690px;
+  
+}
+.computer{
+    text-align:center;
+    font-style:initial;
+    text-transform: uppercase;
+    font-family:cursive;
+}
+.load-computer-img{
+     width: 350px;
+     height:350px; 
+     margin:10px 0px 5px 60px;
+}
+#winorlossortie{
+    margin:-550px 0px 0px 760px;
+    font-family:monospace;
+    font-size: 170%;
+}
+#winner{
+    color:rgb(11, 131, 131);
+    visibility: hidden;
+}
