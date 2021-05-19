@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+}
+.Main{
+    text-align: center;
+    border: 0.1rem solid black;
+    margin: 5rem 6rem;
+    padding: 4rem;
+    background-color:black;
+}
+.title{
+    margin-top: -3rem;
+    text-transform: uppercase;
+    border-bottom: .01rem solid aqua;
+    padding:0.6rem;
+    color:gold;
+    font-family: 'Reggae One', cursive;
+}
+.subject{
+    padding:0.5rem 0.5rem;
+    border-bottom:0.01rem solid gray;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-radius: .4rem;
+    margin:0rem 5rem 0rem 5rem; 
+    background:transparent;
+    color:aqua;
+}
+.sub1,.sub2,.sub3,.sub4{
+    margin-bottom: 1.5rem;
+}
+.subject:hover{
+   border-bottom:0.1rem solid gold;
+}
+.subject:focus{
+    outline: none;
+    border:0.1rem solid gold;
+}
+.btn{
+    padding:0.3rem 0.5rem;
+    font-family: 'Reggae One', cursive;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    background:transparent;
+    color:aqua;
+    border: hidden;
+}
+.btn:hover,.btn:focus{
+    border:0.1rem solid gold;
+}
+#result{
+   margin-top:1rem;
+   font-family: 'Gothic A1', sans-serif;
+}
