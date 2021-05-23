@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --lg-bgclr:linear-gradient(to left, rgb(32, 196, 218),yellow);
+}
+body{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    background-image: var(--lg-bgclr);
+    padding:20px 0;
+    text-transform: uppercase;
+}
+.header h2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container{
+    margin:30px;
+    background-color: white;
+    position:relative;
+    border-radius:10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,1);
+    width:calc(100vw - 65vw); 
+    max-width: 100%;
+}
+
+.form{
+    padding:20px;
+}
+.form-control{
+    position:relative;
+    padding:0 10px 10px 10px;
+}
+.form-control label{
+    font-family: 'Open Sans',sans-serif;
+    color:rgb(129, 129, 129);
+}
+.form-control input{
+    margin-top:5px;
+    width:100%;
+    border: 1px solid rgb(194, 193, 193);
+    border-radius: 5px;
+    outline:none;
+    padding:5px;
+}
+.form-control i{
+    position: absolute;
+    right:20px;
+    top:30px;
+    visibility: hidden; 
+}
+/* .form-control .fa-check-circle-o{
+    visibility: visible;
+    color:rgb(76, 236, 76);
+}
+.form-control .fa-exclamation-circle{
+    visibility: visible;
+    color:rgb(255, 62, 62);
+} */
+.form-control small{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(255, 62, 62);
+    visibility: hidden; 
+}
+.btn{
+    border-radius: 6px;
+    border: none;
+    outline:none;
+    width: 100%;
+    margin:10px;
+    padding:10px 0;
+    background-image: var(--lg-bgclr);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    
+}
+.btn:hover{
+    background:linear-gradient(to right, rgb(32, 196, 218),yellow );
+}
+@media (max-width:998px){
+    .container{
+       width:calc(100vw - 35vw);
+       max-width:100%;
+    }
+}
